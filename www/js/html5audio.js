@@ -22,7 +22,7 @@ function pad2(number) {
 	return (number < 10 ? '0' : '') + number
 }
 
-var myaudioURL = 'http://stream.4zzzfm.org.au:789/;';
+var myaudioURL = 'http://s1.jatengstreams.com:9056/;';
 var myaudio = new Audio(myaudioURL);
 var isPlaying = false;
 var readyStateInterval = null;
